@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> PTT Project Co.,Ltd</title>
+        <!-- fav iocn  -->
+         <link rel="stylesheet" href="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png" rel="icon" type="image/png" sizes="32x32"/>
+        <!-- bootstrap css1 js1  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <!-- fontawsome css 1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+         <!-- custom css -->
+          <style>
+
+            *body{
+                box-sizing: border-box;
+            }
+
+            body{
+                padding: 0;
+                margin: 0;
+            }
+
+            .banners{
+                height: 100vh;
+                background: linear-gradient(
+                    20deg,
+                    steelblue 30%,
+                    skyblue 0 100%
+                    
+                );
+                background-size: 5%;
+                transition:  center ;
+
+               
+            }
+            .banners:hover{
+                background-size: 5.5%;
+                background-position: center;
+            }
+
+            .maps{
+                width: 100%;
+                /* height: 250px; */
+                height: 30vh;
+            }
+        
+          </style>
+        
+    </head>
+    <body>
+
+        <!-- Start Header Section  -->
+         <header>
+                <!-- start navbar -->
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+                    <a href="javascript:void(0);" class="navbar-brand mx-3"> 
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png"  rel="icon" type="image/png"  width="50" alt="sitelogo">
+                        <span class="ms-2"> PTT Project Co.,Ltd</span>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="navbar-toggler-icon"></i> </button>
+
+                    <div id="nav" class="navbar-collapse collapse  justify-content-between">
+                        <ul class="navbar-nav px-3" >
+                            <li class="nav-item"> <a href="#" class="nav-link text-uppercase fw-bold">Home</a></li>
+                            <li class="nav-item"> <a href="#" class="nav-link text-uppercase fw-bold">Clients</a></li>
+                            <li class="nav-item"> <a href="#" class="nav-link text-uppercase fw-bold">About</a></li>
+                            <li class="dropdown">
+                                 <a href="#" class="dropdown-toggle  nav-link text-uppercase fw-bold" data-bs-toggle="dropdown" >Software</a>
+                                 <ul class="dropdown-menu">
+                                    <li><a href="javacript:void(0);" class="dropdown-item"> Android App</a></li>
+                                    <li><a href="javacript:void(0);" class="dropdown-item"> IOS App</a></li>
+                                    <li><a href="javacript:void(0);" class="dropdown-item"> Linux App</a></li>
+                                    <li ><a href="javacript:void(0);" class="dropdown-item"> Window App</a></li>
+                                 </ul>
+                                </li>
+
+                            <li  class="nav-item" > <a href="#" class="nav-link text-uppercase fw-bold">Pricing</a></li>
+                            <li class="nav-item"> <a href="#" class="nav-link text-uppercase fw-bold">Conatact</a></li>
+                        </ul>
+
+                        <div class="px-3"> 
+                            <a href="javscript:void(0);" class="btn btn-outline-light btn-sm roudner-0">Sign-up</a>
+                        </div>
+                    </div>
+
+                </nav>
+                <!-- End nav bar  -->
+
+                <!-- h1 to h6  -->
+                 <!-- display -1 display-6  -->
+
+                <!-- start banner  -->
+                 <div class="container-fluid">
+                    <!--  banners I if  custom css write  -->
+                    <div class="row justify-content-center align-items-center banners">
+                        <div class="col-md-10 text-center">
+                            <h1 class="display-2"><span class="text-primary text-uppercase">ptt</span> <span class="text-white text-capitalize "> software develoment</span> </h1>
+                            <h2  class="fst-italic fw-light text-light">We help compines to diger coder me learing to easiy to going if make</h2>
+                            <p class="text-secondary"> poper st prigereess to me </p>
+                            <a  href="#loginmodal" class="btn btn-warning  btn-lg rounded-0" data-bs-toggle="modal"> Get In Touch </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- end banner -->
+         </header>
+        <!-- End  Header Section  -->
+            <section class="bg-light p-5">
+                <div class="container-fluid">
+                    <!-- start title  -->
+                    <div class="col-md-12 text-center">
+                        <h2 class="btn-warning dispaly4">  Our Client </h2>
+                        <p class="text-muted lead"> Project we Succssfully </p>
+                    </div>
+                    <!-- end  title  -->
+                     <div class="row text-center  ">
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="card bg-info cardhovers">
+                                <!--  div class = "card-header " -->
+                                 <div class="card-body">
+                                    <h5 class="card-title"> Toyota </h5>
+                                    <h6 class="card-substite text-muted mb-3"> Commuacitaton Technology  </h6>
+                                    <p>Information Technology (IT) refers to the use of computer systems, software, programming languages, </p>
+                                    <a href="javascriptvoid:(0);" class=" card-link ">Website</a>
+                                    <a href="javascriptvoid:(0);" class=" card-link"> Contect </a>
+
+                                 </div>
+                                    <!-- <div class="card-footer"></div> -->
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="card bg-info cardhovers">
+                                <!--  div class = "card-header " -->
+                                 <div class="card-body">
+                                    <h5 class="card-title"> SONY  </h5>
+                                    <h6 class="card-substite text-muted mb-3"> Commuacitaton Technology  </h6>
+                                    <p>Information Technology (IT) refers to the use of computer systems, software, programming languages, </p>
+                                    <a href="javascriptvoid:(0);" class=" card-link ">Website</a>
+                                    <a href="javascriptvoid:(0);" class=" card-link"> Contect </a>
+
+                                 </div>
+                                    <!-- <div class="card-footer"></div> -->
+
+                            </div>
+
+
+                        </div>  
+
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="card bg-info cardhovers">
+                                <!--  div class = "card-header " -->
+                                 <div class="card-body">
+                                    <h5 class="card-title"> Saumung </h5>
+                                    <h6 class="card-substite text-muted mb-3"> Commuacitaton Technology  </h6>
+                                    <p>Information Technology (IT) refers to the use of computer systems, software, programming languages, </p>
+                                    <a href="javascriptvoid:(0);" class=" card-link ">Website</a>
+                                    <a href="javascriptvoid:(0);" class=" card-link"> Contect </a>
+
+                                 </div>
+                                    <!-- <div class="card-footer"></div> -->
+
+                            </div>
+
+
+                        </div>  
+
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="card bg-info cardhovers">
+                                <!--  div class = "card-header " -->
+                                 <div class="card-body">
+                                    <h5 class="card-title"> APPLE   </h5>
+                                    <h6 class="card-substite text-muted mb-3"> Commuacitaton Technology  </h6>
+                                    <p>Information Technology (IT) refers to the use of computer systems, software, programming languages, </p>
+                                    <a href="javascriptvoid:(0);" class=" card-link ">Website</a>
+                                    <a href="javascriptvoid:(0);" class=" card-link"> Contect </a>
+
+                                 </div>
+                                    <!-- <div class="card-footer"></div> -->
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="card bg-warning cardhovers">
+                                <!--  div class = "card-header " -->
+                                 <div class="card-body">
+                                    <h5 class="card-title"> Redmi  </h5>
+                                    <h6 class="card-substite text-muted mb-3"> Commuacitaton Technology  </h6>
+                                    <p>Information Technology (IT) refers to the use of computer systems, software, programming languages, </p>
+                                    <a href="javascriptvoid:(0);" class=" card-link ">Website</a>
+                                    <a href="javascriptvoid:(0);" class=" card-link"> Contect </a>
+
+                                 </div>
+                                    <!-- <div class="card-footer"></div> -->
+
+                            </div>
+
+
+                        </div>
+
+                          <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="card bg-warning cardhovers">
+                                <!--  div class = "card-header " -->
+                                 <div class="card-body">
+                                    <h5 class="card-title"> Honary </h5>
+                                    <h6 class="card-substite text-muted mb-3"> Commuacitaton Technology  </h6>
+                                    <p>Information Technology (IT) refers to the use of computer systems, software, programming languages, </p>
+                                    <a href="javascriptvoid:(0);" class=" card-link ">Website</a>
+                                    <a href="javascriptvoid:(0);" class=" card-link"> Contect </a>
+
+                                 </div>
+                                    <!-- <div class="card-footer"></div> -->
+
+                            </div>
+
+
+                        </div> 
+
+                         <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="card bg-warning cardhovers">
+                                <!--  div class = "card-header " -->
+                                 <div class="card-body">
+                                    <h5 class="card-title"> Tecno </h5>
+                                    <h6 class="card-substite text-muted mb-3"> Commuacitaton Technology  </h6>
+                                    <p>Information Technology (IT) refers to the use of computer systems, software, programming languages, </p>
+                                    <a href="javascriptvoid:(0);" class=" card-link ">Website</a>
+                                    <a href="javascriptvoid:(0);" class=" card-link"> Contect </a>
+
+                                 </div>
+                                    <!-- <div class="card-footer"></div> -->
+
+                            </div>
+
+
+                        </div>  
+
+                        <div class="col-md-3 col-sm-6 mb-3">
+                            <div class="card bg-warning cardhovers">
+                                <!--  div class = "card-header " -->
+                                 <div class="card-body">
+                                    <h5 class="card-title"> MIUI </h5>
+                                    <h6 class="card-substite text-muted mb-3"> Commuacitaton Technology </h6>
+                                    <p>Information Technology (IT) refers to the use of computer systems, software, programming languages, </p>
+                                    <a href="javascriptvoid:(0);" class=" card-link ">Website</a>
+                                    <a href="javascriptvoid:(0);" class=" card-link"> Contect </a>
+
+                                 </div>
+                                    <!-- <div class="card-footer"></div> -->
+
+                            </div>
+
+
+                        </div>
+
+                     </div>
+                </div>
+
+            </section>
+
+
+        <!-- Start Software  Section  -->
+        <section class="py-3">
+                <div class="container-fluid">
+                         <!-- start title  -->
+                         <div class="col-md-12 text-center">
+                            <h2 class="btn-warning dispaly4 text-uppercase "> Software </h2>
+                            <p class="text-muted lead"> Project we Succssfully </p>
+                        </div>
+                        <!-- end  title  -->
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <img src="https://www.androiddeveloper.co.in/blog/wp-content/uploads/2021/10/What-Makes-IoT-a-Popular-Trend-in-Android-App-Development.jpg" class="img-thumbnail "  alt="android">
+                                <h3 class="text-warning my-3">Android Application</h3>
+                                <p class="text-muted"> Information Technology is the make the create the we are developer  </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <img src="https://images.prismic.io/ashutec/2dc35f7f-b47d-4fa9-a635-9eec754c0b68_android+vs+ios+image+3-01.jpg?auto=compress,format"  class="img-thumbnail" alt="ios">
+                                <h3 class="text-warning my-3" >IOS  Application</h3>
+                                <p class="text-muted"> Information Technology is the make the create the we are developer  </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <img src="https://www.datocms-assets.com/104397/1708628539-check-the-linux-version.jpeg?auto=format" class="img-thumbnail "alt="linux">
+                                <h3 class="text-warning my-3">Linux  Application</h3>
+                                <p class="text-muted"> Information Technology is the make the create the we are developer  </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <img src="https://blog.techinline.com/wp-content/uploads/2018/01/windows10-apps-start-menu.png" class="img-thumbnail"  class ="img-thumbnail"  alt="window">
+                                <h3 class="text-warning my-3">Window Application</h3>
+                                <p class="text-muted"> Information Technology is the make the create the we are developer  </p>
+                            </div>
+                            
+                        </div>
+                </div>
+        </section>
+        <!-- End  Software Section  -->
+
+        <!-- Start Team  Section  -->
+        <section class="bg-secondary p-4">
+            <div class="container-fluid">
+                    <!-- start title  -->
+                    <div class="col-md-12 text-center">
+                        <h2 class="btn-warning dispaly4">  Team  </h2>
+                    </div>
+                    <!-- end  title  -->
+
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-10  mx-auto mb-2">
+                            <div class="card "> 
+                                <img src="https://sika.scene7.com/is/image/sikacs/glo-APAC-CN-EN-Operations-Mabel-Chen-01971381:16-9?wid=1920&hei=1080&fit=crop%2C1" class="img-thumbnail" alt="">
+                                <div class="card-body">
+                                    <h3 class=" card-title text-warning"> Ma Khin Myate Noe </h3>
+                                    <p  class="card-substite"> Operation Manger </p>
+                                    <div class="card-footer">
+                                        <div class="float-end">
+                                            <a href="javascritp:void(0);"  target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+                                        <a href="javascritp:void(0);"  target="_blank"><i class="fab fa-youtube text-danger fa-2x "></i></a>
+                                        <a href="javascritp:void(0);"  target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+                                        </div>
+                                        
+                                       
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-10   mx-auto  mb-2">
+                            <div class="card "> 
+                                <img src="https://images.stockcake.com/public/9/8/1/9818a273-a546-4eba-a97a-82b10002144a_large/engineer-at-work-stockcake.jpg" class="img-thumbnail" alt="">
+                                <div class="card-body">
+                                    <h3 class=" card-title text-warning"> Ma Phyou Pyho  </h3>
+                                    <p  class="card-substite"> Project  Manger </p>
+                                    <div class="card-footer">
+                                        <div class="float-end">
+                                            <a href="javascritp:void(0);"  target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+                                        <a href="javascritp:void(0);"  target="_blank"><i class="fab fa-youtube text-danger fa-2x "></i></a>
+                                        <a href="javascritp:void(0);"  target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+                                        </div>
+                                        
+                                       
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-10  mx-auto  mb-2">
+                            <div class="card "> 
+                                <img src="https://www.baker.edu/wp-content/uploads/database-administrator-skills.jpg"  class="img-thumbnail"   alt="">
+                                <div class="card-body">
+                                    <h3 class=" card-title text-warning"> Mr.Nyein Su Myat  </h3>
+                                    <p  class="card-substite"> DataBase  Manger </p>
+                                    <div class="card-footer">
+                                        <div class="float-end">
+                                            
+                                            <a href="javascritp:void(0);"  target="_blank"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+                                        <a href="javascritp:void(0);"  target="_blank"><i class="fab fa-youtube text-danger fa-2x "></i></a>
+                                        <a href="javascritp:void(0);"  target="_blank"><i class="fab fa-twitter text-info fa-2x"></i></a>
+                                        </div>
+                                        
+                                       
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+
+            </div>
+        </section>
+        <!-- End  Team Section  -->
+
+
+        <!-- Start Pricing   Section  -->
+        <section class="py-4">
+            <div class="container-fluid">
+                <!-- start title  -->
+                <div class="col-md-12 text-center">
+                    <h2 class="btn-warning dispaly4 text-uppercase">  Prcing   </h2>
+                    <p class="text-muted">  Crate make the impoet the  i am learing  to programming ....</p>
+                </div>
+                <!-- end  title  -->
+
+                <div class="row">
+
+                    <div class=" col-lg-6 col-sm-10 mx-auto">
+                        <h3>Ebook </h3>
+                        <div class="progress mb-3 ">
+                            <div class="progress-bar progress-bar-striped bg-warning  " style="width: 25%; " aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+
+                        <h3>Android  Application </h3>
+                        <div class="progress mb-3 ">
+                            <div class="progress-bar progress-bar-striped bg-dark  " style="width: 75%; " aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+
+                        <h3>IOS  </h3>
+                        <div class="progress mb-3 ">
+                            <div class="progress-bar progress-bar-striped bg-info  " style="width: 30%; " aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                        </div>
+                     
+
+                        <h3>Linux   Application </h3>
+                        <div class="progress mb-3 ">
+                            <div class="progress-bar progress-bar-striped bg-danger  " style="width: 50%; " aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+
+                        <h3>Window Application </h3>
+                        <div class="progress mb-3 ">
+                            <div class="progress-bar progress-bar-striped bg-success  " style="width: 80%; " aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        
+   
+                    </div>
+
+
+                </div>
+
+            </div>
+            
+
+        </section>
+        <!-- End  Pricing Section  -->
+
+
+        <!-- Start Pricing Seciton -->
+
+        <section class="bg-secondary py-4">
+            <div class="container-fluid">
+                   <!-- start title  -->
+                   <div class="col-md-12 text-center">
+                    <h2 class="btn-warning dispaly4 text-uppercase">  Pricing    </h2>
+                    <p class="text-light">  Crate make the impoet the  i am learing  to programming ....</p>
+                </div>
+                <!-- end  title  -->
+                 <div class="row text-center">
+                    <div class="col-md-4 col-sm-10 mx-auto mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"> GLOFJSIT /Free</h5>
+                                <h6 class="card-substite"> $0 Month</h6>
+                                <hr>
+
+                                <ul class="list-group"> 
+                                    <li class="list-group-item">Singl  Usser </li>
+                                    <li class="list-group-item">MI  Usser </li>
+                                    <li class="list-group-item">TV  Usser </li>
+                                    <li class="list-group-item">Appple  Usser </li>
+                                    <li class="list-group-item">StarLink  Usser </li>
+                                    <li class="list-group-item">Laptop  Usser </li>
+                                    <li class="list-group-item">Redmi  Usser </li>
+                                    <li class="list-group-item">Saumung  Usser </li>
+                                    
+                                 </ul>
+
+                            </div>
+
+                            
+                            <div class="card-footer"> 
+                                <div class="d-grid">
+                                    <div class="d-grid">
+                                        <button type="button" class="btn btn-warning roudner-0"> CHECK OUT </button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-10 mx-auto mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"> GLOFJSIT /Free</h5>
+                                <h6 class="card-substite"> $0 Month</h6>
+                                <hr>
+
+                                <ul class="list-group"> 
+                                    <li class="list-group-item">Singl  Usser </li>
+                                    <li class="list-group-item">MI  Usser </li>
+                                    <li class="list-group-item">TV  Usser </li>
+                                    <li class="list-group-item">Appple  Usser </li>
+                                    <li class="list-group-item">StarLink  Usser </li>
+                                    <li class="list-group-item">Laptop  Usser </li>
+                                    <li class="list-group-item">Redmi  Usser </li>
+                                    <li class="list-group-item">Saumung  Usser </li>
+                                    
+                                 </ul>
+
+                            </div>
+
+                            
+                            <div class="card-footer"> 
+                                <script src="https://static.elfsight.com/platform/platform.js" async></script>
+                                <div class="elfsight-app-314296d9-5939-4351-a392-6eb2558859b4" data-elfsight-app-lazy></div>
+
+                                <div class="d-grid">
+                                    <div class="d-grid">
+                                        <button type="button" class="btn btn-warning roudner-0"> CHECK OUT </button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-10 mx-auto mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"> GLOFJSIT /Free</h5>
+                                <h6 class="card-substite"> $0 Month</h6>
+                                <hr>
+
+                                <ul class="list-group"> 
+                                    <li class="list-group-item">Singl  Usser </li>
+                                    <li class="list-group-item">MI  Usser </li>
+                                    <li class="list-group-item">TV  Usser </li>
+                                    <li class="list-group-item">Appple  Usser </li>
+                                    <li class="list-group-item">StarLink  Usser </li>
+                                    <li class="list-group-item">Laptop  Usser </li>
+                                    <li class="list-group-item">Redmi  Usser </li>
+                                    <li class="list-group-item">Saumung  Usser </li>
+                                    
+                                 </ul>
+
+                            </div>
+
+                            
+                            <div class="card-footer"> 
+                                <div class="d-grid">
+                                    <div class="d-grid">
+                                        <button type="button" class="btn btn-warning roudner-0"> CHECK OUT </button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                 </div>
+
+            </div>
+
+        </section>
+        <!-- End Pricing Seciton -->
+
+
+        <!-- Start Contact   Section  -->
+        <section class="py-4">
+            <div class="">
+                   <!-- start title  -->
+                   <div class="col-md-12 text-center">
+                    <h2 class="btn-warning dispaly4 text-uppercase">  Prcing   </h2>
+                    <p class="text-muted">  Crate make the impoet the  i am learing  to programming ....</p>
+                </div>
+                <!-- end  title  -->
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-2">
+                        <div class="card roudner-0">
+                            <div class="card-header">
+                                <h5 class=" card-title">Officl Loactiion</h5>               
+                            </div>
+                            <div class="card-body">
+                                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.5106437550844!2d96.14056005927499!3d20.425054799528457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c93cb02af4952d%3A0xaf5d4841c6bbea50!2sSmile%20Icecream%20Shop!5e0!3m2!1sen!2smm!4v1731937721303!5m2!1sen!2smm" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                            </div>
+                            <div class="card-footer">
+                                <p>Phone : 09968234276</p>
+                                <p>Email: aunghtetmyatsoe424@gmail.com</p>
+                                <p>Address: Magwary SeikPhyu Pindale </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-2">
+                        <div class="">
+                            <h4 class="" > Question</h4>
+                            <p> Star  Contect</p>
+
+                            <form action="">
+
+                                <div class="col-md-12 form-group mb-3">
+                                    <input type="text" name="name" id="name" class="form-control form-control-sm roudner-0 " placeholder="Enter you name"/>
+                                    <label for="name">Name</label>
+
+
+                                </div>
+
+                                <div class="col-md-12 form-group mb-3">
+                                    <label for="name">Email</label>
+                                    <input type="email" name="email" id="email" class="form-control form-control-sm roudner-0 " placeholder="Enter you email"/>
+
+                                </div>
+
+                                <div class="col-md-12 form-floating mb-3">
+                                    <textarea type="text" name="mesage" id="mesage" class="form-control form-control-sm roudner-0 " rows="3" > </textarea>
+                                    <label for="mesage">Message</label>
+
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-warning roudner-0"> Submit </button>
+                                </div>
+                    
+                            </form>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+        <!-- End  Contact Section  -->
+
+        <!-- Start Footer   Section  -->
+        <section class="bg-dark py-3">
+            <div class="container-fluid">
+                <div class="col-12 text text-center">
+                    <p class="text-light">&copy; Copyright <span  id="autoyear"></span>-Make by PTT Co,.LTD  </p>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End  Footer Section  -->
+
+        <!-- START BODAL ARE -->
+         <!-- start get In Touch Modal -->
+
+         <!-- 
+            Modal Size 
+                (i) Standar Size
+                modal -xl
+                modal-lg
+                modal-sm
+                modal-md(defult)
+                mdoal-sm
+
+                (ii)
+
+                modal -fullscreeen
+                modal-fullscreen-xl-down
+                modal-fullscreen-xxl-down
+                modal-fullscreen-lg-down
+                modal-fullscreen-md-down
+                modal-fullscreen-sm-down
+
+
+
+         
+            -->
+
+          <!-- End  Get In Touch Modal -->
+
+         <!-- start get In Touch Modal -->
+                    <div id="loginmodal" class="modal">
+                        <!-- postivation and size  -->
+
+                        <div class="modal-dialog modal-dialog-centered modal-fullscreen-md-down">
+                            <!-- background -->
+                             <div class="modal-content rounded-0">
+                                <div class="modal-header">
+                                    <h5 class="modal">Login Here</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                                </div>
+                                <div class="modal-body">
+
+                                    <form action="" method="">
+
+                                        <div class="col-md-12 form-group mb-3">
+                                            <label for="signemail">Email</label>
+                                            <input type="email" name="signemail" id="signemail" class="form-control" placeholder="Enter your email" />
+                                        </div>
+        
+                                        <div class="col-md-12 form-group mb-3">
+                                            <label for="siginpassword">password</label>
+                                            <input type="password" name="siginpassword" id="siginpassword" class="form-control form-control-sm roudner-0 " placeholder="Enter you password"/>
+        
+                                        </div>
+
+                                        <div class="d-flex justify-content-end ">
+                                            <button type="submit" class="btn btn-secondary roudner-0"  data-bs-dismiss> Cancel  </button>
+                                            <button type="submit" class="btn btn-warning roudner-0 ms-3" > Login  </button>
+
+                                        </div>
+                            
+                                    </form>
+        
+                                </div>
+                                <div class="modal-footer">
+                                    <p>Note Ye Tegister !,  <a href="javascript:void(0);">Sigin Here </a></p>
+                                </div>
+                             </div>
+                        </div>
+
+                    </div>
+
+         <!-- End get In Touch Modal -->
+
+
+
+
+
+
+
+        <!-- bootstrap css1 js1  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- custom js  -->
+         <script type="text/javascript">
+            const autoyear = document.getElementById('autoyear');
+            const getyear = new Date().getUTCFullYear();
+            autoyear.textContent = getyear
+         </script>
+
+
+
+<!-- lead {
+    selector name from letter specilling make bootstrap form ......
+} -->
+<!-- 18PP -->
+
+<!-- Elisht viver Telegram app adimn  -->
+
+
+<!--
+ why we need github
+
+save 
+virsion control v1.0
+                v1.1
+                v1.2
+                v1.3
+
+
+                ဒီဟာလေးအတွက် အသုံးပြုတယ် 
+
+corb ပူးပေါင်းဆောင်ရွက်ခြင်း project တစ်ခုကို adimn က ဖန်တီးထားတယ်ကွာ
+                pj mang app  slack ,asnal,
+
+            
+
+DEVOF 
+Linex
+
+
+ 
+-->
+
+
+
+<!-- 19GT -->
+
